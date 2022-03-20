@@ -21,7 +21,8 @@
 const questions = document.querySelectorAll('.question');
 
 questions.forEach(function (question) {
-    const btn = question.querySelector('.btn');
+    // const btn = question.querySelector('.btn');
+    const btn = question;
     btn.addEventListener('click', function (e) {
         e.preventDefault();
         questions.forEach(function (item) {

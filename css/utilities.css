@@ -6,9 +6,9 @@
 } */
 
 .card {
-    background: #fff;
-    color: #333;
-    border-radius: 10px;
+    background: #fff!important;
+    color: #333!important;
+    border-radius: 10px!important;
     box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
     padding: 20px;
     margin: 10px;

@@ -74,11 +74,16 @@ pre {
 }
 
 .question {
+    display: block;
     font-family: var(--ff-primary);
     width: 90vw;
     max-width: var(--fit-w);
     margin: 1.2rem auto;
     padding-bottom: 0;
+}
+
+.question:hover {
+    transform: none;
 }
 
 .question-title {
@@ -98,6 +103,7 @@ h3 {
     overflow: hidden;
     margin-left: 10px;
     padding: var(--pd);
+    z-index: 100;
 }
 
 .question-title .minus {
