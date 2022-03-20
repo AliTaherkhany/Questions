@@ -29,6 +29,7 @@ body {
     background: var(--clr-grey-10);
     color: #333;
     line-height: 1.6;
+    -webkit-tap-highlight-color: transparent;
 }
 
 ul {
